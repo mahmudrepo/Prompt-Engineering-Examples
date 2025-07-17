@@ -2,7 +2,7 @@ THE C.R.E.A.T.E. FRAMEWORK
     Character
     Request
     Examples
-    Additions
+    Adjustments
     Type of output
     Extras
 
@@ -17,3 +17,26 @@ You clearer you are, the higher your chance of getting a great response.
 Give more information if you need to. Here’s an example:
 “I want you to generate an amazing recipe just using the ingredients I have in my fridge and cupboards.
 Start by asking me what ingredients I have available.”
+
+//Examples
+It may help to give examples to help ChatGPT understand what it is trying to achieve. 
+Lists of information can be particularly good. Something like:
+“Draw your inspiration from chefs like Marco Pierre White, Gordon Ramsey, Anne-Sophie Pic and Yannick Alléno.”
+
+>>>>>>>>> Follow up conversations 
+
+//Adjustments
+You’ll often discover elements in the output that aren’t quite what you wanted. 
+This is where you add some extra statements to help shape the results.
+“List the measurements in imperial units. Do not use all the ingredients - only use what you need for the dish.
+Do not suggest a recipe until I give you my ingredients. Ask for the ingredients and then wait for my response before answering.”
+
+//Type of output
+Tell ChatGPT exactly how to format your output. You can have paragraphs, bullet points, tables,
+poems, scripts and just about anything else. Make it clear how you want the output to be formatted.
+“Write your response as a recipe. Give me a recipe title, a 100 word paragraph describing the dish, a list of ingredients and simple-to-follow steps. 
+Write it in plain English without jargon.”
+
+//Extras
+There are some powerful phrases you can add to your prompt to make it
+work better.
