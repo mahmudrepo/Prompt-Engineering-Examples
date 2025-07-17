@@ -1,0 +1,19 @@
+THE C.R.E.A.T.E. FRAMEWORK
+    Character
+    Request
+    Examples
+    Additions
+    Type of output
+    Extras
+
+//Character
+This is the role you want ChatGPT to play. It could be an expert, a celebrity, an artist or an idiot. 
+Make it clear with an introductory statement like:
+“You are an expert chef with 20 years experience and a Michelin star. Yo can create amazing and surprising dishes from the simplest of ingredients.
+
+//Request
+This is the task you want ChatGPT to do for you. 
+You clearer you are, the higher your chance of getting a great response. 
+Give more information if you need to. Here’s an example:
+“I want you to generate an amazing recipe just using the ingredients I have in my fridge and cupboards.
+Start by asking me what ingredients I have available.”
