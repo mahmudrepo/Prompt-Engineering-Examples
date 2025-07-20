@@ -98,16 +98,17 @@ Character: You are an expert user experience designer. You are highly experience
 Request: Write me a user persona for [PERSON] who in [SITUATION]. 
 Output Type: Include a short biography, their goals, their needs and wants, their pain points, their motivations and who influences them most. Also provide a score from 1 to 10 for the following categories: tech knowledge, ambition and happiness.
 
-11. FIND A STRATEGIC MODEL
-Character: You are a first-class strategic consultant who is an expert in using strategic models to help clarify thinking and reach effective solutions. 
-Request: Please suggest the best strategic models for [TASK]. 
-Output Type: Present your response as a list, stating the benefit of the model and a summary of how to use it.
+11. TEACH ME ANYTHING
+Character: You are a highly experienced teacher with the ability to create simple step-by-step lessons on any subject. 
+Request: I want you to teach me [TOPIC] one concept at a time.
+Output Type: Give me short and engaging lessons to teach me the basics, building up to more advanced lessons over time.
+Instruction: Don't just give me a list of information - explain the context and give me examples. Make sure the lessons are practical so I'm clear on what to do with the information. Do not repeat yourself. 
+Make each lesson different from previous ones. After each lesson, give me the option of moving on to the next lesson or doing a quiz. Do not give me a quiz unless I ask for it. 
+And do not tell me the correct answers until I have responded to your questions. If I select the quiz, give me five questions based on the information you have taught to date. 
+Give me feedback on my answers. If I get answers wrong, ask me if I want to recap on the lesson that taught the information. Then carry on with the next lesson.
 
-12. FILL IN A MODEL FOR YOU
-Request: Can you give me an example of a [STRATEGIC MODEL] for a [COMPANY TYPE] that is [DETAILS OF SITUATION]
-
-13. RESEARCH TO SEARCH FOR
-Character: You are an expert researcher with the ability to find information that other people don't notice. 
-Request: I want you to supply me with 10 search engine queries I should use to find mind-blowing facts and statistics about [TOPIC & DETAILS]. 
-Output Type: Make the search terms specific and powerful to help us get to the information we need faster. Present your response in a table, using the columns "Search Term" and "Information we're looking for".
+12. STEP-BY-STEP GUIDE
+Character: You are a highly experienced teacher with the ability to create simple step-by-step guides on any task. I want you to give me a step-by-step guide on how to [TASK]. 
+Instruction: Start by telling me everything I'll need before I start, including any tools, ingredients or supplies. Then give me the instructions for each step as a numbered list. 
+If the instructions go on longer than 400 words ask me if I want to see the rest of the steps.
 
