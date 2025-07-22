@@ -3,7 +3,7 @@ THE C.R.E.A.T.E. FRAMEWORK
     Request
     Examples
     Adjustments
-    Type of output
+    Output Format
     Extras
 
 //Character
@@ -18,6 +18,10 @@ Give more information if you need to. Here’s an example:
 “I want you to generate an amazing recipe just using the ingredients I have in my fridge and cupboards.
 Start by asking me what ingredients I have available.”
 
+//Context
+Share any relevant background or assumptions ChatGPT should consider.
+“I’m preparing a proposal for an AI startup looking to raise a seed round. Help me write the executive summary.”
+
 //Examples
 It may help to give examples to help ChatGPT understand what it is trying to achieve. 
 Lists of information can be particularly good. Something like:
@@ -30,7 +34,7 @@ This is where you add some extra statements to help shape the results.
 “List the measurements in imperial units. Do not use all the ingredients - only use what you need for the dish.
 Do not suggest a recipe until I give you my ingredients. Ask for the ingredients and then wait for my response before answering.”
 
-//Type of output
+//Output Format
 Tell ChatGPT exactly how to format your output. You can have paragraphs, bullet points, tables,
 poems, scripts and just about anything else. Make it clear how you want the output to be formatted.
 “Write your response as a recipe. Give me a recipe title, a 100 word paragraph describing the dish, a list of ingredients and simple-to-follow steps. 
@@ -47,38 +51,38 @@ work better.
 1. SUMMARISE TEXT IN 1,000 WORDS
 Character: You are a highly experienced writer who writes concise and readable text without stop words, filler words or jargon. 
 Request: I want you to summarise the following text, highlighting the most important concepts. 
-Output Type: Deliver this as a short paragraph of 100 words. Then list the most important points as a bullet-point list. Finally, follow it with a one sentence summary. 
+Output Format: Deliver this as a short paragraph of 100 words. Then list the most important points as a bullet-point list. Finally, follow it with a one sentence summary. 
 Input: The text I want you to summarise is "[TEXT]"
 
 2. SUMMARISE A WELL-KNOWN BOOK
 Character: You are a highly experienced writer who writes concise and readable text without stop words, filler words or jargon. 
 Request: I want you to give me a summary of the book "[BOOK NAME]" by by [AUTHOR NAME], highlighting the most important concepts. 
-Output Type: Deliver this as a list of no more than 5 bulletpoints and follow it with a one-sentence summary.
+Output Format: Deliver this as a list of no more than 5 bulletpoints and follow it with a one-sentence summary.
 
 3. SUMMARISE CURRENT ACADEMIC THINKING
 Character: You are a highly experienced writer who writes concise and readable text without stop words, filler words or jargon. 
 Request: I want you to give me a summary of current academic thinking around the field of [TOPIC], highlighting the most important concepts.
-Output Type: Deliver this as a list of bullet points and follow it with a one-sentence summary.
+Output Format: Deliver this as a list of bullet points and follow it with a one-sentence summary.
 
 4. IDENTIFY DIFFERENT PERSPECTIVES
 Character: You are an expert in [TOPIC]. 
 Request: Please list as many different perspectives as there are on the topic. 
 Instruction: Think about it from the point of view of lots of different audiences who have an interest in the topic. 
-Output Type: Write your response as a bullet-pointed list.
+Output Format: Write your response as a bullet-pointed list.
 
 5. IDENTIFY DIFFERENT AUDIENCES
 Request: Please list the different people who have an interest in [TOPIC] along with a summary of their perspectives and and understanding of their motivations. 
-Output Type: Write your response as a table with the columns "Audience", "Perspective" and "Motivation".
+Output Format: Write your response as a table with the columns "Audience", "Perspective" and "Motivation".
 
 6. GET ADVICE FROM THE SMARTEST THINKERS
 Character: Imagine you are a [SUBJECT] expert with 30 years of experience and lots of awards for excellence. 
 Request: Please give your best advice on [TOPIC], drawing on research and best practice.
-Output Type: Write your advice as an article using plain English and subheads to make it more readable.
+Output Format: Write your advice as an article using plain English and subheads to make it more readable.
 
 7. GET ADVICE FROM INDUSTRY EXPERTS
 Character: Imagine you are [EXPERT NAME].
 Request: Please give your best advice on [TOPIC], drawing from your writings, interviews and biographical information. 
-Output Type: Write your advice as an article from your own point of view using plain English and subheads to make it more readable.
+Output Format: Write your advice as an article from your own point of view using plain English and subheads to make it more readable.
 
 8. EXPLORE FURTHER
 Go deeper with these prompts.
@@ -91,17 +95,17 @@ Go deeper with these prompts.
 9. IDENTIFY AUDIENCES
 Character: You are an expert user experience designer with expertise in analysing audiences. 
 Request: Please create a list of possible audiences for [PRODUCT].
-Output Type: Tell me their profession, age and reason for needing the product. Present your response in a table with the columns "Profession", "Age" and "Needs".
+Output Format: Tell me their profession, age and reason for needing the product. Present your response in a table with the columns "Profession", "Age" and "Needs".
 
 10. GENERATE USER PERSONAS
 Character: You are an expert user experience designer. You are highly experienced at user research and finding valuable human insights. 
 Request: Write me a user persona for [PERSON] who in [SITUATION]. 
-Output Type: Include a short biography, their goals, their needs and wants, their pain points, their motivations and who influences them most. Also provide a score from 1 to 10 for the following categories: tech knowledge, ambition and happiness.
+Output Format: Include a short biography, their goals, their needs and wants, their pain points, their motivations and who influences them most. Also provide a score from 1 to 10 for the following categories: tech knowledge, ambition and happiness.
 
 11. TEACH ME ANYTHING
 Character: You are a highly experienced teacher with the ability to create simple step-by-step lessons on any subject. 
 Request: I want you to teach me [TOPIC] one concept at a time.
-Output Type: Give me short and engaging lessons to teach me the basics, building up to more advanced lessons over time.
+Output Format: Give me short and engaging lessons to teach me the basics, building up to more advanced lessons over time.
 Instruction: Don't just give me a list of information - explain the context and give me examples. Make sure the lessons are practical so I'm clear on what to do with the information. Do not repeat yourself. 
 Make each lesson different from previous ones. After each lesson, give me the option of moving on to the next lesson or doing a quiz. Do not give me a quiz unless I ask for it. 
 And do not tell me the correct answers until I have responded to your questions. If I select the quiz, give me five questions based on the information you have taught to date. 
@@ -112,3 +116,6 @@ Character: You are a highly experienced teacher with the ability to create simpl
 Instruction: Start by telling me everything I'll need before I start, including any tools, ingredients or supplies. Then give me the instructions for each step as a numbered list. 
 If the instructions go on longer than 400 words ask me if I want to see the rest of the steps.
 
+13. LinkedIn Post Template
+Request: Write a concise and insightful LinkedIn post (under 250 words) summarizing [topic/trend]. 
+Output Format: Add a hook at the start and a question to drive engagement at the end.
