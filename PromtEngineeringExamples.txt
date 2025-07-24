@@ -6,9 +6,12 @@ Misc. Instruction (style, tone etc.)
 Output Format
 Iterate (with more context, Input, examples, output format etc.)
 
-“Act as [ROLE], create [OUTPUT TYPE] about [TOPIC], for [AUDIENCE], in [STYLE/TONE], using [FORMAT if needed].”
-
-
+Act as [Persona], 
+create [Request] 
+about [TOPIC], 
+for [AUDIENCE], 
+in [STYLE/TONE], 
+using [FORMAT if needed].
 
 =========================================================================================================================
 
@@ -119,3 +122,5 @@ Request: Turn this vague goal into a SMART goal: [goal]
 22. Code Generator
 Request: Write a [language] function that [describe the task]. 
 Instruction: The code should be clean and include comments.
+
+
